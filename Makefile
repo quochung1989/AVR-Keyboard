@@ -34,7 +34,7 @@ LAYOUT = ansi_iso_jis
 MCU = atmega32u4
 F_CPU = 16000000
 B_LOADER = \"jmp\ 0x7000\"
-
+make clean; make
 
 # BOARD = hid_liber
 # LAYOUT = ansi_iso_jis
