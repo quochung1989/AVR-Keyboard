@@ -1,6 +1,6 @@
 # Hey Emacs, this is a -*- makefile -*-
 #----------------------------------------------------------------------------
-# WinAVR Makefile Template written by Eric B. Weddington, Jörg Wunsch, et al.
+# WinAVR Makefile Template written by Eric B. Weddington, Jï¿½rg Wunsch, et al.
 #
 # Released to the Public Domain
 #
@@ -21,19 +21,19 @@
 # On command line:
 #
 # make = Make software.
-#
+# make clean; make
 # make clean = Clean out built project files.
-#
+
 # To rebuild project do "make clean" then "make all".
 #----------------------------------------------------------------------------
 
 # Keyboard type (with micro controller code and speed)
-BOARD = phantom
+BOARD = hib_liber
 #LAYOUT = ansi_iso
-LAYOUT = ansi_iso_win
+LAYOUT = ansi_iso_jis
 MCU = atmega32u4
 F_CPU = 16000000
-B_LOADER = \"jmp\ 0x7E00\"
+B_LOADER = \"jmp\ 0x7000\"
 
 # BOARD = hid_liber
 # LAYOUT = ansi_iso_jis
